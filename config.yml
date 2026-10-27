@@ -67,7 +67,7 @@ params:
   # Only the three icons requested (no GitHub, no Teaching).
   socialIcons:
     - name: CV
-      url: /resume (1).pdf
+      url: /resume_pietrodedola.pdf
     - name: Email
       url: "mailto:pdedola@princeton.edu"
     - name: LinkedIn
