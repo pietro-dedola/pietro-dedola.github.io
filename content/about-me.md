@@ -9,7 +9,7 @@ My research interests include decision theory, econometrics, and statistical lea
 
 ## Education
 
-- **Ph.D. in Economics**, Princeton University (expected 2030)
+- **Ph.D. in Economics**, Princeton University (expected 2029)
 - **M.Sc. in Economic and Social Sciences**, Bocconi University (2023)
 - **B.Sc. in Economic and Social Sciences**, Bocconi University (2021)
 
