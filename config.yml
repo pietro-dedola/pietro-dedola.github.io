@@ -10,18 +10,23 @@ pagination:
 taxonomies:
   tag: tags
 
-# For now, link directly to your real research paper.
-# We can add dedicated Papers, Teaching, and CV pages later.
+# Top navigation, matching the structure of Wei Zhang's website.
 menu:
   main:
-    - name: Working Paper
-      url: "https://www.dropbox.com/scl/fi/wxxgwjl59bf6zs7iarw4z/BD_Separating.pdf?rlkey=z730qq7rkv1g8q56k275p3bnz&dl=0"
+    - name: Working Papers
+      url: /working-papers/
       weight: 1
+    - name: Work in Progress
+      url: /work-in-progress/
+      weight: 2
+    - name: About Me
+      url: /about-me/
+      weight: 3
 
 params:
-  description: "Pietro Dedola is a Ph.D. student in Economics at Princeton University, working on decision theory, econometrics, statistics, and machine learning."
+  description: "Pietro Dedola is a Ph.D. student in Economics at Princeton University."
   author: "Pietro Dedola"
-  DateFormat: January 2006
+  DateFormat: "January 2006"
   defaultTheme: light
   hideFooter: false
   disableThemeToggle: true
@@ -45,21 +50,28 @@ params:
   profileMode:
     enabled: true
     title: "Pietro Dedola"
-    subtitle: "I am a Ph.D. student in Economics at Princeton University. My research interests include decision theory, information economics, econometrics, statistics, and machine learning."
-    # No photo yet: the template's example photo is intentionally hidden.
+    subtitle: "Welcome to my website! I am a Ph.D. student in Economics at Princeton University. <br><br> My research interests include **decision theory**, **econometrics**, and **statistical learning**."
+    # When you upload a headshot to static/photo_square.png, uncomment these:
+    # imageUrl: "/photo_square.png"
+    # imageWidth: 200
+    # imageHeight: 200
+    # imageTitle: "Pietro Dedola"
     buttons:
-      - name: Working Paper
-        url: "https://www.dropbox.com/scl/fi/wxxgwjl59bf6zs7iarw4z/BD_Separating.pdf?rlkey=z730qq7rkv1g8q56k275p3bnz&dl=0"
-      - name: Email
-        url: "mailto:pdedola@princeton.edu"
+      - name: Working Papers
+        url: /working-papers/
+      - name: Work in Progress
+        url: /work-in-progress/
+      - name: About Me
+        url: /about-me/
 
+  # Only the three icons requested (no GitHub, no Teaching).
   socialIcons:
+    - name: CV
+      url: /cv.pdf
     - name: Email
       url: "mailto:pdedola@princeton.edu"
     - name: LinkedIn
-      url: "https://www.linkedin.com/in/pietro-dedola-65226b296"
-    - name: GitHub
-      url: "https://github.com/pietro-dedola"
+      url: "https://it.linkedin.com/in/pietro-dedola-65226b296"
 
   assets:
     disableScrollBarStyle: true
