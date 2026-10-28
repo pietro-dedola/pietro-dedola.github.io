@@ -48,20 +48,20 @@ params:
   math: true
 
   profileMode:
-  enabled: true
-  title: "Pietro Dedola"
-  subtitle: "Welcome to my website! I am a Ph.D. student in Economics at Princeton University. <br><br> My research interests include **decision theory**, **econometrics**, and **statistical learning**."
-  imageUrl: "/foto_pietro.png"
-  imageWidth: 200
-  imageHeight: 200
-  imageTitle: "Pietro Dedola"
-  buttons:
-    - name: Working Papers
-      url: /working-papers/
-    - name: Work in Progress
-      url: /work-in-progress/
-    - name: About Me
-      url: /about-me/
+    enabled: true
+    title: "Pietro Dedola"
+    subtitle: "Welcome to my website! I am a Ph.D. student in Economics at Princeton University. <br><br> My research interests include **decision theory**, **econometrics**, and **statistical learning**."
+    imageUrl: "/foto_pietro.png"
+    imageWidth: 200
+    imageHeight: 200
+    imageTitle: "Pietro Dedola"
+    buttons:
+      - name: Working Papers
+        url: /working-papers/
+      - name: Work in Progress
+        url: /work-in-progress/
+      - name: About Me
+        url: /about-me/
 
   # Only the three icons requested (no GitHub, no Teaching).
   socialIcons:
